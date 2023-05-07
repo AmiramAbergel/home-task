@@ -25,6 +25,9 @@ Obj/
 .vs/
 # Jetbrains Rider cache/options directory
 .idea/
+.DS_Store
+.idea
+.idea/*
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
