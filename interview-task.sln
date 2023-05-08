@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAmiramAbergel", "TestAmiramAbergel\TestAmiramAbergel.csproj", "{3F81BA4E-B82B-47E9-BF68-6DA63674828B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowManagement", "WindowManagement\WindowManagement.csproj", "{8E44C7D4-1F95-4AA4-905F-F0D2303D3746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{AA18676D-9FCF-4381-BCD3-362ADF96F685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F81BA4E-B82B-47E9-BF68-6DA63674828B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F81BA4E-B82B-47E9-BF68-6DA63674828B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F81BA4E-B82B-47E9-BF68-6DA63674828B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F81BA4E-B82B-47E9-BF68-6DA63674828B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E44C7D4-1F95-4AA4-905F-F0D2303D3746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E44C7D4-1F95-4AA4-905F-F0D2303D3746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E44C7D4-1F95-4AA4-905F-F0D2303D3746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E44C7D4-1F95-4AA4-905F-F0D2303D3746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA18676D-9FCF-4381-BCD3-362ADF96F685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA18676D-9FCF-4381-BCD3-362ADF96F685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA18676D-9FCF-4381-BCD3-362ADF96F685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA18676D-9FCF-4381-BCD3-362ADF96F685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

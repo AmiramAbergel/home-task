@@ -1,0 +1,53 @@
+============================================================================================================================================ 
+============================================================================================================================================ 
+The code review and solutions are as follows:
+============================================================================================================================================ 
+============================================================================================================================================ 
+
+1. I suggest separating classes in order to make this app scalable and readable:
+
+ - WindowController.cs - includes the WindowController class.
+
+ - Window.cs - includes Window class. 
+
+ - Program.cs - includes Program class.
+
+============================================================================================================================================ 
+
+2. Utility functionality repeats in some places, for example:
+
+Both AbortMinimize and SetWindowToMinimize include the same condition - " if (!WindowIdValidate(selectedWindowID))"
+
+Therefore, we will create a separate utils file:
+
+- Utils.cs - separate utility class (better code organization and code reuse).
+
+The GetUserInput() and ShowMenu() functions are included.
+- GetUserInput() reads user input from the console .
+- ShowMenu() displays a menu of options. These functions are generic and can be used in various projects, avoiding code duplication.
+ 
+============================================================================================================================================ 
+
+3. There are several problems with case number 2 in the Program class:
+
+a. " selectedWindowID" has a default value of 0 (instead, it should display an error message to the user).
+
+b. "seconds" has a default value of 0 (instead, it should display an error message to the user).
+	Also, the app should inform the user that only positive numbers are acceptable when entering seconds
+
+c.  When the user is asked to enter the window ID, there is no immediate check that selectedWindowID exists
+
+============================================================================================================================================ 
+
+4. Case number 3 in the Program class is not handling errors:
+" abortWindowId" has a default value of 0 (instead, it should display the same error message as "selectedWindowID", to the user).
+
+============================================================================================================================================ 
+
+5. In order to ensure only Main functions are included in the program class, ShowMenu() was moved to the utilities class
+
+============================================================================================================================================ 
+
+6. There is no Readme file.
+
+============================================================================================================================================ 
